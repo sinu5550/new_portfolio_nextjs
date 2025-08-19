@@ -60,9 +60,7 @@ const Navbar = () => {
   return (
     <div>
       <div
-        className={`fixed top-0 z-50 w-full flex items-center justify-between border-b border-gray-700 text-white px-6 md:px-10 lg:px-16 py-1 md:py-3 transition-transform backdrop-blur-3xl ${
-          scrollingDown ? "fixed -translate-y-full" : "translate-y-0"
-        }`}
+        className={`fixed top-0 z-50 w-full flex items-center justify-between border-b border-gray-700 text-white px-6 md:px-10 lg:px-16 py-1 md:py-3 transition-transform backdrop-blur-3xl `}
       >
         <div>
           <Image src={logo} alt="logo" width={50} height={50} />
@@ -92,9 +90,8 @@ const Navbar = () => {
         </div>
       </div>
       <aside
-        className={`${
-          menuOpen ? "translate-x-0" : " translate-x-[1000px]"
-        } md:hidden fixed flex flex-col gap-3 text-center bg-white/20 backdrop-blur-lg text-black p-6 w-full md:w-[300px] top-[59px] md:top-[67px] transition-all duration-300 z-50`}
+        className={`${menuOpen ? "translate-x-0" : " translate-x-[1000px]"
+          } md:hidden fixed flex flex-col gap-3 text-center bg-white/20 backdrop-blur-lg text-black p-6 w-full md:w-[300px] top-[59px] md:top-[67px] transition-all duration-300 z-50`}
       >
         {navLinks.map((link) => (
           <Link
