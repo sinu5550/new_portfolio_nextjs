@@ -63,7 +63,8 @@ const Navbar = () => {
         className={`fixed top-0 z-50 w-full flex items-center justify-between border-b border-gray-700 text-white px-6 md:px-10 lg:px-16 py-1 md:py-3 transition-transform backdrop-blur-3xl `}
       >
         <div>
-          <Image src={logo} alt="logo" width={50} height={50} />
+          {/* <Image src={logo} alt="logo" width={50} height={50} /> */}
+          <span className="text-3xl font-bold">ahmed_siyan</span>
         </div>
         {/* Nav */}
         <div>
