@@ -94,10 +94,9 @@ const Skills = () => {
               <Tab
                 key={idx}
                 className={({ selected }) =>
-                  `px-4 py-1.5 rounded-full transition duration-500  hover:bg-blue-500 hover:opacity-100 hover:text-white ${
-                    selected
-                      ? "bg-gradient-to-r from-blue-500 focus:outline-none to-transparent text-white"
-                      : "text-white"
+                  `px-4 py-1.5 rounded-full transition duration-500  hover:bg-blue-500 hover:opacity-100 hover:text-white ${selected
+                    ? "bg-gradient-to-r from-blue-500 focus:outline-none to-transparent text-white"
+                    : "text-white"
                   }`
                 }
               >
@@ -127,7 +126,7 @@ const Skills = () => {
                 </div>
               ))}
             </TabPanel>
-            <TabPanel className={"flex flex-wrap gap-5"}>
+            <TabPanel className={"flex flex-wrap items-center justify-center gap-5"}>
               {tools.map((t) => (
                 <div
                   key={t.name}
