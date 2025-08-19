@@ -1,0 +1,38 @@
+{
+  "name": "ahmedsiyan-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@headlessui/react": "^2.2.0",
+    "@mui/material": "^6.4.4",
+    "@netlify/plugin-nextjs": "^5.9.4",
+    "aos": "^2.3.4",
+    "lucide-react": "^0.475.0",
+    "motion": "^12.4.2",
+    "next": "^15.4.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
+    "react-lottie": "^1.2.10",
+    "react-scroll": "^1.9.2",
+    "react-simple-typewriter": "^5.0.1",
+    "react-tabs": "^6.1.0",
+    "react-typing-effect": "^2.0.5"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "daisyui": "^4.12.23",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}

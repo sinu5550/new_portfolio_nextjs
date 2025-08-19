@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-tabs__tab--selected {
+  @apply border-blue-400 text-blue-400;
+}
