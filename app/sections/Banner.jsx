@@ -17,19 +17,19 @@ const Banner = () => {
   const socialLink = [
     {
       icon: <FaLinkedinIn />,
-      link: "",
+      link: "https://linkedin.com",
     },
     {
       icon: <FaXTwitter />,
-      link: "",
+      link: "https://twitter.com",
     },
     {
       icon: <FaFacebookF />,
-      link: "",
+      link: "https://facebook.com",
     },
     {
       icon: <IoLogoGithub />,
-      link: "",
+      link: "https://github.com",
     },
   ];
 
@@ -96,7 +96,7 @@ const Banner = () => {
           <div className="flex gap-3 justify-center">
             {socialLink.map((s) => (
               <div
-                key={s.link}
+                key={s.link}  // Using 'link' as the unique key
                 className="border border-secondary rounded-[4px] p-1.5 hover:shadow-sm hover:shadow-secondary cursor-pointer duration-200"
               >
                 {s.icon}
